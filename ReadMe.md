@@ -10,7 +10,8 @@ sudo mn --custom topo.py --topo mytopo --controller=remote,ip=127.0.0.1,port=665
 sudo python sdn.py
 `
 ## 实验场景
-![](http://images2017.cnblogs.com/blog/1226734/201801/1226734-20180125205629709-775168189.png)  
+![](http://images2017.cnblogs.com/blog/1226734/201801/1226734-20180126000825897-747756540.png)
+
 
 服务器h2 h3上各自有不同的服务，h1是客户端。实现一个负载均衡的北向程序，当h2和h3向h1传输数据时，北向应用根据链路的使用状况动态的调整路由规则。
 
